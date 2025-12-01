@@ -8,11 +8,13 @@ All the results in the paper can be achieved by running the "25.11.29 Pivot.ipyn
 
 The "25.09.27 Molecular Space.ipynb" notebook can be used to generate the data used in our class presentation during week 5-6.
 
-This .zip file contains a series of notebooks, datasets as ".csv" files that were used during the project, and saved models we generated as ".pkl" files. Note, ".pkl" files are version dependent, and will not produce usable results unless the code is run with the specified versions of each package listed below (under Dependencies)
+This GitHub repository contains a series of notebooks, datasets as ".csv" files that were used during the project, and ".png" files with images of plots. Note, ".pkl" files generated are version dependent, and will not produce usable results unless the code is run with the specified versions of each package listed below (under Dependencies)
+
+".pkl" files must be generated due to size constraints
 
 These notebooks rely on the ".csv" formatted datasets in order to run, and they must be placed in the same filepath / folder as the notebook when running.
 
-Individual molecules can be screened for potential kinase inhibition using the "25.11.29 Importing pickles.ipynb" notebook
+Individual molecules can be screened for potential kinase inhibition using the "25.11.29 Importing pickles.ipynb" notebook. This relies on ".pkl" files generated from the "25.11.29 Pivot.ipynb" notebook
 
 Dependencies:
 catboost 1.2.8
